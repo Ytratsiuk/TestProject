@@ -1,10 +1,8 @@
 package class15;
 
-public class PracticeMethodTester2 {
+public class PracticeMethodTester3 {
     public static void main(String[] args) {
-        PracticeMethod2 o = new PracticeMethod2();
-        /*String word = o.reverseStr1("Sunday");
-        System.out.println(word);*/
-        System.out.println(o.reverseStr("sunday"));
+        PracticeM3 object = new PracticeM3();
+        System.out.println(object.sumArray(new int[]{4, 6, 9, 3}));
     }
 }

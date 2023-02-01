@@ -1,9 +1,10 @@
 package class15;
 
-public class PracticeMethodTester {
+public class PracticeMethodTester2 {
     public static void main(String[] args) {
-        PracticeMethod Oh = new PracticeMethod();
-       boolean result = Oh.isEven2(45);
-        System.out.println(result);
+        PracticeMethod2 o = new PracticeMethod2();
+        /*String word = o.reverseStr1("Sunday");
+        System.out.println(word);*/
+        System.out.println(o.reverseStr("sunday"));
     }
 }

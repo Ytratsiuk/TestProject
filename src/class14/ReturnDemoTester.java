@@ -1,8 +1,8 @@
 package class14;
 
-public class ReturnDemo {
+/*public class ReturnDemoTester {
         public static void main(String[] args) {
-            ReturnDemo rd=new ReturnDemo();
+            ReturnDemoTester rd=new ReturnDemoTester();
 
             String str= rd.method1();
             System.out.println(str);
@@ -10,4 +10,4 @@ public class ReturnDemo {
             System.out.println(result);
         }
     }
-}
+}*/

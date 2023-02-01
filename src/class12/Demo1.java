@@ -1,4 +1,6 @@
-public class class12 {
+package class12;
+
+public class Demo1 {
     public static void main(String[] args) {
         //Creating an object of the String class
         String strObj=new String("Java");

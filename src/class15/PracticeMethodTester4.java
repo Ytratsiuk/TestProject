@@ -1,8 +1,8 @@
 package class15;
 
-public class PracticeMethodTester3 {
+public class PracticeMethodTester4 {
     public static void main(String[] args) {
-        PracticeM3 object = new PracticeM3();
-        System.out.println(object.sumArray(new int[]{4, 6, 9, 3}));
+       PracticeM4 object = new PracticeM4();
+        System.out.println(object.largerNumber(1000,50));
     }
 }

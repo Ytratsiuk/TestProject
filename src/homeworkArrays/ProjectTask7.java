@@ -7,16 +7,13 @@ public class ProjectTask7 {
         for (int i = 0; i < num.length; i++) {
             for (int j = 0; j < num[i].length; j++) {
                 if (num[i][j] == 0 || num[i][j] == 1) {
-continue;
                 } else {
                     for (int a = 2; j < num[i].length; a++) {
-                        if (num[i][j] % a == 0) {
-                            break;
-                        } else {
-                                System.out.println(num[i][j] + " is prime number");
-                                break;
-                            }
+                        if (num[i][j] % a != 0) {
+                            System.out.println(num[i][j] + " is prime number");
                         }
+                        break;
+                    }
                     }
                 }
             }

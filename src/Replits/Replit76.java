@@ -1,4 +1,4 @@
-package homework;
+package Replits;
 import java.util.*;
 public class Replit76 {
 

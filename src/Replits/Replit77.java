@@ -1,4 +1,4 @@
-package homework;
+package Replits;
 import java.util.Scanner;
 import java.util.Arrays;
 public class Replit77 {

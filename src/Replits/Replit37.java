@@ -1,4 +1,4 @@
-package homework;
+package Replits;
 import java.util.Scanner;
 public class Replit37 {
         public static void main(String[]args){

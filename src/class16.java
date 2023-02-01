@@ -1,2 +1,4 @@
-package PACKAGE_NAME;public class class16 {
-}
+/*public class class16 {
+    String str = "dad";
+    StringBuilder str1 =
+}*/

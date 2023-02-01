@@ -1,4 +1,4 @@
-package homework;
+package Replits;
 
 public class Replit72 {
     public static void main(String[] args) {
