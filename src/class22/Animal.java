@@ -1,4 +1,13 @@
 package class22;
 
-public class one {
+public class Animal {
+    void speak (){
+        System.out.println("animal speaks");
+    }
+}
+class cat extends Animal{
+    void speak (){
+        System.out.println();
+    }
+
 }
