@@ -1,4 +1,4 @@
-package HW.src.polimorfism;
+package HW.src.polymorphism;
 
 abstract public class Computer {
     //Create a Class Computer that will have 4 subclasses as Apple, Lenovo, HP, Dell.
