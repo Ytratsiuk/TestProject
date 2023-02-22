@@ -1,4 +1,4 @@
-package Videos;
+package HW.src.ifForSwitchWhile;
 
 public class LoopsFor {
     public static void main(String[] args) {

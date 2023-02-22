@@ -1,4 +1,4 @@
-package Videos;
+package HW.src.methods;
 
 public class MMethods {
     public static void main(String[] args) {

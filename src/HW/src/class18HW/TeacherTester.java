@@ -1,4 +1,4 @@
-package class18HW;
+package HW.src.class18HW;
 
 public class TeacherTester {
     public static void main(String[] args) {
@@ -8,6 +8,6 @@ public class TeacherTester {
         System.out.println(mathTeacher.infoExperience(6));
         System.out.println(mathTeacher.task(5,8));
         System.out.println(pianoTeacher.bigSmallClass(5));
-        System.out.println(myTeacher.idCreator("Yuliya","Trarsiuk",5));
+        System.out.println(myTeacher.idCreator("Yuliya","Tratsiuk",5));
     }
 }

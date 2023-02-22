@@ -1,5 +1,6 @@
-package arraysMW;
+package HW.src.arrays;
 
+//Create an array of countries. While retrieving all values from an array print the capital for each country.
 public class ArrayCountries {
     public static void main(String[] args) {
         String country[] = {"Belarus", "Russia", "Ukraine", "Kazakhstan", "Turkmenistan"};
@@ -24,6 +25,4 @@ public class ArrayCountries {
             }
         }
     }
-    //Create an array of countries.
-    // While retrieving all values from an array print capital for each country choose any five countries.
 }

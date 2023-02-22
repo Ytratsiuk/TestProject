@@ -1,4 +1,4 @@
-package HW.src;
+package HW.src.arrays;
 
 public class averageInArray {
     // final method avgElements averages all the elements in an integer array

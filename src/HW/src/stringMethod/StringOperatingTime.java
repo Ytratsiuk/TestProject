@@ -1,4 +1,4 @@
-package Videos;
+package HW.src.stringMethod;
 
 public class StringOperatingTime {
     public static void main(String[] args) {

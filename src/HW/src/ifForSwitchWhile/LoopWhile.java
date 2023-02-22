@@ -1,4 +1,4 @@
-package Videos;
+package HW.src.ifForSwitchWhile;
 
 public class LoopWhile {
     public static void main(String[] args) {
