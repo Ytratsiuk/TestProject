@@ -1,6 +1,6 @@
-package arraysMW;
+package HW.src.arrays;
 
-public class ProjectTask9 {
+public class MaxMin {
     //Maximum and minimum number in the array
     public static void main(String[] args) {
         int arr[][] = {{10, 0, 80, 9}, {1, 4, 8, 100}};

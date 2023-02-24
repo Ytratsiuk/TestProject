@@ -1,6 +1,6 @@
-package arraysMW;
+package HW.src.arrays;
 
-public class ProjectTask10 {
+public class SecondLargest {
     //Write a java program to find the second largest number in the array
     public static void main(String[] args) {
         int arr[][] = {{17, 208, 341, 40, 55, 67, 108, 9}, {1, 20, 3, 4, 5, 6, 100, 0}};

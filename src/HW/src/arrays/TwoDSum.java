@@ -1,6 +1,6 @@
-package arraysMW;
+package HW.src.arrays;
 
-public class ProjectTask3 {
+public class TwoDSum {
     // Create a 2D array of integer values. Print the sum of all numbers.
     public static void main(String[] args) {
         int array[][] = {{1, 2, 3, 4, 5},

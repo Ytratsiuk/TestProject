@@ -1,6 +1,6 @@
-package arraysMW;
+package HW.src.arrays;
 
-public class ProjectTask8 {
+public class Fibonacci {
     //Write a Java Program to print the first 10 numbers of Fibonacci series.
     public static void main(String[] args) {
         int prev = 0;

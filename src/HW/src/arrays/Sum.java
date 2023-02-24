@@ -1,8 +1,8 @@
-package arraysMW;
+package HW.src.arrays;
 
 import java.util.Scanner;
 
-public class ProjectTask1 {
+public class Sum {
     public static void main(String[] args) {
         Scanner keyboard=new Scanner(System.in);
 

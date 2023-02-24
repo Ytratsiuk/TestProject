@@ -1,6 +1,6 @@
-package arraysMW;
+package HW.src.arrays;
 
-public class ProjectTask11 {
+public class DuplicateElements {
     //Write a program to print out duplicate elements from an Array of Strings
     public static void main(String[] args) {
         String arr[] = {"Mama", "Papa", "daughter", "son", "hamster", "Mama"};

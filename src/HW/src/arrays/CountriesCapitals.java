@@ -1,11 +1,12 @@
-package arraysMW;
+package HW.src.arrays;
 
 import java.util.Scanner;
 
-public class ProjectTask2 {
+public class CountriesCapitals {
     public static void main(String[] args) {
         Scanner keyboard = new Scanner(System.in);
         String countries[] = new String[6];
+        System.out.println("Enter five countries to know the capitals");
         countries[0] = keyboard.next();
         countries[1] = keyboard.next();
         countries[2] = keyboard.next();
