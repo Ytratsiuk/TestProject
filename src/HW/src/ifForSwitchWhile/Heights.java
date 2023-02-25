@@ -1,4 +1,4 @@
-package ifForSwitchWhile;
+package HW.src.ifForSwitchWhile;
 
 import java.util.Scanner;
 

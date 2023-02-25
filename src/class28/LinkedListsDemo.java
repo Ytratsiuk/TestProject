@@ -4,7 +4,6 @@ import java.util.LinkedList;
 
 public class LinkedListsDemo {
 
-    // break till 1:50
     public static void main(String[] args) {
 
         LinkedList<String> names=new LinkedList<>();

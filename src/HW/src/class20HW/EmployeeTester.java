@@ -1,5 +1,6 @@
-package class20HW;
+package HW.src.class20HW;
 
+/*
 public class EmployeeTester {
     public static void main(String[] args) {
         FullTime maria = new FullTime("Maria", "Ferrari", 34569, 40, "New App");
@@ -12,3 +13,4 @@ public class EmployeeTester {
         clara.info();
     }
 }
+*/

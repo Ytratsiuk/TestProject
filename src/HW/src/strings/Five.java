@@ -1,4 +1,4 @@
-package homeworkclass13;
+package HW.src.strings;
   /* How would you check if String is palindrome or not? aba=> true
            Abbc =>false*/
 

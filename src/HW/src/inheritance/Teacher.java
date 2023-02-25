@@ -1,4 +1,4 @@
-package HW.src.class18HW;
+package HW.src.inheritance;
 
 public class Teacher {
     //Write a Java program called Teacher.  Identify features and 4 behaviour of that Class.

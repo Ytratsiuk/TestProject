@@ -33,4 +33,3 @@ package class25;
             System.out.println("you can own me");
         }
     }
-}

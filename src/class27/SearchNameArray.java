@@ -1,6 +1,6 @@
 package class27;
 
-public class ArraysLoop {
+public class SearchNameArray {
 
     public static void main(String[] args) {
         String name = "Savo";

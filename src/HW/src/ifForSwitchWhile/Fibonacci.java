@@ -1,4 +1,4 @@
-package HW.src.arrays;
+package HW.src.ifForSwitchWhile;
 
 public class Fibonacci {
     //Write a Java Program to print the first 10 numbers of Fibonacci series.

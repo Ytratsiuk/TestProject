@@ -1,4 +1,4 @@
-package HW.src.class18HW;
+package HW.src.inheritance;
 
 public class TeacherTester {
     public static void main(String[] args) {
