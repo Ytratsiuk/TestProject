@@ -13,11 +13,7 @@ public class removeEndsWith {
         words.add("Inheritance");
         words.add("Abstraction");
         words.add("Aggregation");
-        for (String word : words) {
-            if(word.endsWith("e")){
-                words.remove(word);
-            }
-        }
+        words.removeIf(x -> x.endsWith("e"));
         System.out.println(words);
     }
 }
