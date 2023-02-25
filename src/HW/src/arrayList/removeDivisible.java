@@ -5,15 +5,10 @@ import java.util.LinkedList;
 public class removeDivisible {
     public static void main(String[] args) {
         LinkedList<Integer> numbers = new LinkedList<>();
-        for (int a = 1; a <= 500; a++) {
+        for (int a = 2; a <= 500; a+=2) {
             numbers.add(a);
         }
-        for (int i = 0; i<numbers.size(); i++) {
-
-            if (numbers.get(i) % 5 == 0) {
-                numbers.remove(numbers.get(i));
-            }
-        }
+       numbers.removeIf(x -> x%5==0);
         System.out.println(numbers);
+        }
     }
-}
