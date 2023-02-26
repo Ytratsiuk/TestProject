@@ -1,4 +1,4 @@
-package class20HW;
+package HW.src.class20HW;
 
 public class Shape {
     /*Write program: Shape class has a constructor that takes the radius and has a subclass as  circle class.
