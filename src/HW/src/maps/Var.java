@@ -1,12 +1,11 @@
 package HW.src.maps;
-
+//Create a map of countries with its capital that will store countries in alphabetical order.
+//Print all keys and values from a country map using for each loop and iterator.
+//Print all values from a country map using for each loop and iterator.
 import java.util.Map;
 import java.util.TreeMap;
 
 public class Var {
-    //Create a map of countries with its capital that will store countries in alphabetical order.
-    //Print all keys and values from a country map using for each loop and iterator.
-    //Print all values from a country map using for each loop and iterator.
     public static void main(String[] args) {
         TreeMap<String, String> countries = new TreeMap<>();
         countries.put("USA", "DC");
