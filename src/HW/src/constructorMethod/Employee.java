@@ -1,4 +1,4 @@
-package class20HW;
+package HW.src.constructorMethod;
 
 public class Employee {
     //Create an Employee class that will have variables and methods.
@@ -18,11 +18,10 @@ public class Employee {
 
     String printBadge(boolean worksAtGoogle) {
         if (worksAtGoogle) {
-            System.out.print(name + " " + lastName + " " + idNumber);
+            return name + " " + lastName + " " + idNumber;
         }else{
-            System.out.print("This employee does not work at Google IT Department. No info found. ");
+            return "This employee does not work at Google IT Department. No info found. ";
         }
-        return name + lastName + idNumber;
     }
 }
 
