@@ -1,6 +1,6 @@
 package class30;
 
-public class Entry {
+public class Entry<S, O> {
    private int key;
     private String value;
 
