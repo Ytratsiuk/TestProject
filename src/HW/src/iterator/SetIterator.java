@@ -1,4 +1,4 @@
-package HW.iterator;
+package HW.src.iterator;
 
 import java.util.Iterator;
 import java.util.LinkedHashSet;
