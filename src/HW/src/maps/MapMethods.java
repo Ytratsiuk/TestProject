@@ -13,12 +13,15 @@ public class MapMethods {
         address.put("Zip", 22180);
         address.put("Country", "United State");
 
+//Print all the values in upper case using entrySet
         Map<String, Object> appleMap = new HashMap<>();
         appleMap.put("Items", "Apple");
         appleMap.put("Price", 20.00);
         appleMap.put("Quantity", 10);
+        Set<Map.Entry<String, Object>> keysValues = appleMap.entrySet();
 
-        Map<String, String> map = new HashMap<>(3);
+
+       /* Map<String, String> map = new HashMap<>(3);
         map.put("ONE", null);
         map.put("TWO", "BBB");
         map.put("THREE", "CCC");
@@ -26,16 +29,18 @@ public class MapMethods {
         map.put("FIVE", "EEE");
         System.out.println(map);
 
-        map.putIfAbsent("ONE","yuliya");
+        map.putIfAbsent("ONE","yuliya");*/
        /* System.out.println(map);
         System.out.println(map.keySet());
         System.out.println(map.values());*/
-        map.entrySet().stream().sorted(Map.Entry.comparingByKey()).forEach(System.out::println);
-        System.out.println(map);
 
-        map.remove("ONE");
+       /* //stream--The default implementation creates a sequential Stream from the collection's
+        map.entrySet().stream().sorted(Map.Entry.comparingByKey()).forEach(System.out::println);
+        System.out.println(map);*/
+
+/*        map.remove("ONE");
         System.out.println(map);
         Set<Map.Entry<String, String>> keysValues = map.entrySet();
-        System.out.println(keysValues);
+        System.out.println(keysValues);*/
     }
 }
