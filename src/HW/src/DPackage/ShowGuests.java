@@ -1,4 +1,4 @@
-package HW.src.D;
+package HW.src.DPackage;
 
 import static java.lang.System.out;
 import java.util.Scanner;

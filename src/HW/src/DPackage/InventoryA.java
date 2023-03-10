@@ -1,3 +1,5 @@
+package HW.src.DPackage;
+
 import static java.lang.System.out;
 import java.util.Scanner;
 import java.text.NumberFormat;

@@ -1,4 +1,4 @@
-package HW.src.D;
+package HW.src.DPackage;
 
 import java.io.File;
 import java.io.IOException;
@@ -29,7 +29,7 @@ class FindVacancy {
             out.println("Sorry, no vacancy");
         } else {
             out.print("How many people for room ");
-            out.print(room);
+            out.println(room);
             out.print("? ");
             guests[room] = keyboard.nextInt();
 
