@@ -9,35 +9,34 @@ import static java.lang.System.out;
 
 class FindVacancy {
 
-    public static void main(String args[])
-            throws IOException {
+    public static void main(String args[]) throws IOException {
         Scanner keyboard = new Scanner(System.in);
         Scanner diskScanner = new Scanner(new File("Files/GuestList.txt"));
-        int guests[] = new int[10];
-        int room;
+        int hotelCapacity [] = new int[10];
+        int suitNumber;
 
-        for (room = 0; room < 10; room++) {
-            guests[room] = diskScanner.nextInt();
+        for (suitNumber = 0; suitNumber < 10; suitNumber++) {
+            hotelCapacity [suitNumber] = diskScanner.nextInt();
         }
 
-        room = 0;
-        while (room < 10 && guests[room] != 0) {
-            room++;
+        suitNumber = 0;
+        while (suitNumber < 10 && hotelCapacity [suitNumber] != 0) {
+            suitNumber++;
         }
 
-        if (room == 10) {
+        if (suitNumber == 10) {
             out.println("Sorry, no vacancy");
         } else {
             out.print("How many people for room ");
-            out.println(room);
+            out.println(suitNumber);
             out.print("? ");
-            guests[room] = keyboard.nextInt();
+            hotelCapacity [suitNumber] = keyboard.nextInt();
 
             PrintStream listOut =
                     new PrintStream("Files/GuestList.txt");
 
-            for (room = 0; room < 10; room++) {
-                listOut.print(guests[room]);
+            for (suitNumber = 0; suitNumber < 10; suitNumber++) {
+                listOut.print(hotelCapacity [suitNumber]);
                 listOut.print(" ");
             }
         }
