@@ -16,7 +16,8 @@ public class PrintCondition
         fruitMap.put("Mango",10.6);
         Set<Map.Entry<String,Double>> allKV= fruitMap.entrySet();
         for (Map.Entry<String,Double> fruit : allKV){
-           if( fruit.getKey().contains("a")||fruit.getKey().contains("e")){
+            String key = fruit.getKey();
+           if( key.contains("a")||key.contains("e")){
                if(fruit.getValue()>8){
                    System.out.println(fruit);
                }
