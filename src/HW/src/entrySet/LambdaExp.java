@@ -12,6 +12,7 @@ public class LambdaExp {
         fruitMap.put("pear", 16.5);
         fruitMap.put("Orange", 15.5);
         fruitMap.put("Mango", 10.6);
+        fruitMap.forEach((x,y) -> System.out.println(x+" "+y));
         fruitMap.entrySet().removeIf(entry -> (entry.getKey().contains("a") || entry.getKey().contains("e")) && entry.getValue() > 8);
         System.out.println(fruitMap);
     }
